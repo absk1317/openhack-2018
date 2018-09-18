@@ -5,7 +5,8 @@
       "name": "Attach to JavaScript Functions",
       "type": "node",
       "request": "attach",
-      "port": 3000,
+      "port": 5858,
+      "protocol": "inspector",
       "preLaunchTask": "runFunctionsHost"
     }
   ]
